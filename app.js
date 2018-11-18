@@ -12,7 +12,7 @@ const cli = meow(`
       --timestamp, -t Timestamp upto which you want posts to be fetched (optional)
       --hashtag, -ht Match posts with a specific hashtag (optional)
       --count -c Extract certain number of posts (optional)
-      --filetype -f  ( json_file, yml_file ) Output file type ( Default .json ) (optional)
+      --filetype -f  ( json_file, yaml_file ) Output file type ( Default .json ) (optional)
       --filename -n  Output file name ( Default instagram )
 
 	Examples
@@ -49,6 +49,8 @@ const cli = meow(`
 
 let input = cli.input[0], flags = cli.flags
 
+console.log(input, flags)
+
 if (input != "instascrape") 
     return console.log("error in CLI input. TYPE [ node app.js --help ] for more details")
 
@@ -65,6 +67,7 @@ let options = {
     result_format: flags.f || "json_file",
     result_file_name: flags.n || "extract"
 }
+console.log(options)
 
 InstaScrape(options)
     .then(res => console.log("DONE"))

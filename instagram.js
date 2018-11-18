@@ -2,9 +2,7 @@ const puppeteer = require('puppeteer');
 const _ = require("lodash");
 const { promisify } = require('util');
 const fs = require('fs');
-const writeYaml = require('write-yaml');
 const writeFileAsync = promisify(fs.writeFile);
-const writeYamlAsync = promisify(writeYaml);
 
 const {
     ERRORS,
@@ -98,11 +96,6 @@ class ModuleBuilder {
             return module
         }
 
-        if (this.building.result_format == 'yml_file') {
-            module.driver = result => writeYamlAsync( `${file_name}.yml`, JSON.stringify(result, null, 2) )
-            module.type = "yml_file"
-            return module
-        }
     }
 }
 

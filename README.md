@@ -15,7 +15,6 @@ InstaScrape is a scraping tool that allows programmers to extract publice user i
  * [Puppeteer](https://pptr.dev) - Headless Chrome Node API.
  * [Lodash](https://lodash.com/) - A modern JavaScript utility library delivering modularity, performance & extras.
  * [util](https://www.npmjs.com/package/util) - Node.js's util module for all engines.
- * [write-yaml](https://www.npmjs.com/package/write-yaml) - Write YAML. Converts JSON to YAML writes it to the specified file.
  * [meow](https://www.npmjs.com/package/meow) - CLI app helper.
 
 ### Installation
@@ -35,7 +34,7 @@ InstaScrape can extract only 1 users information through the CLI FOR NOW.
 
 | Flags | Shorthand | Optional | Value |
 | ------ | ------| ------ |------ |
-| filetype | -f | YES | json( return an object ) / json_file / yml_file |
+| filetype | -f | YES | json( return an object ) / json_file |
 | timestamp | -t | YES | Date and Time upto which posts should be extracted  |
 | handle | -h | NO | Instagram Handle Name  |
 | filename | -n | YES | Custom file name  |
@@ -67,7 +66,7 @@ let response = InstaScrape(options)
 | ------ | ------ |------ |
 | users | NO | Array of all users you want information about |
 | cool_down_time | YES | Short setTimeOuts for the Garbage Collector to do its jog |
-| result_format | YES | json( return an object ) / json_file / yml_file |
+| result_format | YES | json( return an object ) / json_file |
 | result_file_name | YES | Custom file name  |
 
 The following are the option provided to filter releavant posts from the feed.
@@ -86,4 +85,4 @@ The following are the option provided to filter releavant posts from the feed.
 License
 ----
 
-MIT
+ISC
