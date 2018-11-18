@@ -71,6 +71,7 @@ let response = InstaScrape(options)
 | result_file_name | YES | Custom file name  |
 
 The following are the option provided to filter releavant posts from the feed.
+
 | Key | Optional | Value |
 | ------ | ------ |------ |
 | handle | NO | Users Instagram Handle |
