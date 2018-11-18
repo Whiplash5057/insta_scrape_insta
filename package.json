@@ -1,6 +1,6 @@
 {
   "name": "insta_scrape_insta",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": ">Extract Instagram User Information, Post Information Without Login. Download ( JSON, XML ) or return a JSON.",
   "main": "index.js",
   "scripts": {
