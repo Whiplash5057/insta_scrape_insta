@@ -1,7 +1,7 @@
 {
   "name": "insta_scrape_insta",
   "version": "1.2.2",
-  "description": ">Extract Instagram User Information, Post Information Without Login. Download ( JSON, XML ) or return a JSON.",
+  "description": ">Extract Instagram User Information, Post Information Without Login. Download ( JSON ) or return a JSON.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

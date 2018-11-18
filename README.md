@@ -26,7 +26,7 @@ Install the dependencies before running.
 
 ```sh
 $ npm install insta_scrape_insta
-$ cd insta_scrape
+$ cd insta_scrape_insta
 $ node app.js instascrape -h danbilzerian -c 10
 ```
 
