@@ -85,4 +85,4 @@ The following are the option provided to filter releavant posts from the feed.
 License
 ----
 
-ISC
+MIT

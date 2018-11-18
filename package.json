@@ -28,7 +28,7 @@
     "Insta API"
   ],
   "author": "Richard Andrews",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "fs": "0.0.1-security",
     "lodash": "^4.17.11",
