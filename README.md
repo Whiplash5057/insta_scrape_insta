@@ -25,8 +25,8 @@ Install the dependencies before running.
 ### If you want to run the API in the CLI
 
 ```sh
+$ npm install insta_scrape_insta
 $ cd insta_scrape
-$ npm install
 $ node app.js instascrape -h danbilzerian -c 10
 ```
 
