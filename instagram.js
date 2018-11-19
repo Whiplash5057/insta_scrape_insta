@@ -26,7 +26,7 @@ class Configuration {
 
     async aggregatePromise(promise_list) {
         try {
-            return Promise.all(promise_list)
+            return await Promise.all(promise_list)
         } catch (err) {
             throw {
                 err
