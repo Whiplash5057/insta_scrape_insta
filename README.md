@@ -45,7 +45,7 @@ InstaScrape can extract only 1 users information through the CLI FOR NOW.
 ### If you want to call the method in your program
 
 ```sh
-let InstaScrape = require('insta_scrape')
+let InstaScrape = require('insta_scrape_insta')
 let users = [
         {
             handle:"rik.roc",
